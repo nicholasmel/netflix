@@ -22,6 +22,11 @@ function Nav() {
         src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
         alt="Netflix Logo"
       ></img>
+      <h2>Home</h2>
+      <h2>TV Shows</h2>
+      <h2>Movies</h2>
+      <h2>New & Popular</h2>
+      <h2>My List</h2>
       <img
         className="nav__avatar"
         src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
