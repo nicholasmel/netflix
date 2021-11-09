@@ -1,0 +1,78 @@
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 448px;
+}
+
+.banner__contents {
+  margin-left: 40px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner__title {
+  font-size: 4rem;
+  font-weight: 800;
+  padding-bottom: 0.4rem;
+}
+
+.banner__description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.banner__button {
+  cursor: pointer;
+  color: #111;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.863);
+  padding-bottom: 0.5rem;
+}
+
+.banner__button-info {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(117, 117, 117, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+.banner__button:hover {
+  color: #111;
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.banner__button-info:hover {
+  color: white;
+  background: rgba(70, 70, 70, 0.5);
+  transition: all 0.5s;
+}
+
+.banner--fadeBottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.3),
+    #111
+  );
+}
